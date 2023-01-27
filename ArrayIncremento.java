@@ -10,6 +10,7 @@ public class ArrayIncremento {
 		for (double i : numeros) {
 			double porcentaje = sc.nextDouble();
 			System.out.println(i += i*porcentaje/100);
+			System.out.println("Esta cambiado desde Git");
 		}
 		sc.close();
 	}
